@@ -12,6 +12,8 @@ public interface AdminService {
 
     AjaxResult editAdmin(Admin admin, List<Integer> roleIds);
 
+    Admin findByAdminId(Integer adminId);
+
     AjaxResult findAdmins(Admin admin);
 
 

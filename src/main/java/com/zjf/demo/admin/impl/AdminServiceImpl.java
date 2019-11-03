@@ -51,6 +51,12 @@ public class AdminServiceImpl implements AdminService {
     }
 
     @Override
+    public Admin findByAdminId(Integer adminId) {
+//        return adminMapper.findAdmins();
+        return new Admin();
+    }
+
+    @Override
     public AjaxResult findAdmins(Admin admin) {
         List<Admin> adminList = adminMapper.findAdmins(admin);
         return new AjaxResult(adminList);

@@ -11,7 +11,6 @@ public class Tools {
             if (!oldList.contains(id)){
                 addList.add(id);
             }
-            continue;
         }
         return addList;
     }
@@ -22,7 +21,6 @@ public class Tools {
             if (!newList.contains(id)){
                 deleteList.add(id);
             }
-            continue;
         }
         return deleteList;
     }

@@ -98,7 +98,4 @@
         where admin_id = #{adminId,jdbcType=INTEGER}
     </select>
 
-
-
-
 </mapper>
